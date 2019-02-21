@@ -56,11 +56,31 @@
   margin: 0;
 }
 
-.text__section--second{
+.text__section--second, .text__section--third{
   display: inline-block;
   font-size: 14px;
   line-height: 1.25;
 }
 
+.section__third{
+  background-color:#a767a7;
+  margin: 30px 15px 22px 14px;
+  padding: 29px 20px 34px 15px;
+  color: #c9c9c9;
+}
+
+.title__section--third{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.text__section--third{
+  margin-bottom: 38px;
+}
+
+.last__text{
+  margin: 0;
+}
 
 
