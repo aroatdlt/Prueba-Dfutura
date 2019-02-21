@@ -4,6 +4,14 @@
   padding-bottom: 124px;
 }
 
+.logo__header {
+  width: 163px;
+  height: 45px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
 .button{
   background-color: white;
   border-radius: 0;
@@ -36,12 +44,11 @@
   margin: 0 28px 41px 29px;
 }
 
-@media all and(max-width:576px) {
-  .logo__header {
-    width: 163px;
-    height: 45px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
+@media all and(min-width:768px) {
+  .logo__header{
+    width: 420px;
+    height: 117px;
   }
 }
+
+

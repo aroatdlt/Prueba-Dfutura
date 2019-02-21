@@ -83,4 +83,23 @@
   margin: 0;
 }
 
+@media all and (min-width:768px){
+  .list__section--first{
+    display: flex;
+    flex-direction: row;
+  }
 
+  .list__section--second{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 700px;
+  }
+
+  .item__section--second{
+    width: 50%;
+  }
+
+  .section__third{
+    max-width: 420px;
+  }
+}
