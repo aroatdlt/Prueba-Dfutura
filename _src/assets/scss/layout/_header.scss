@@ -7,9 +7,16 @@
 .logo__header {
   width: 163px;
   height: 45px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  margin-top: 15px;
+}
+
+.list__navbar{
+  background-color: red;
+  height: 117px;
+}
+
+.item__list--header{
+  display: inline-block;
 }
 
 .button{
@@ -27,7 +34,7 @@
 .container__text--header{
   background-color: #828282;
   color: #f6f6f6;
-  margin: 126px 15px 0 14px;
+  margin: 66px 15px 0 14px;
 }
 
 .main__title{
@@ -41,7 +48,7 @@
   color: #c9c9c9;
   line-height: 1.25;
   opacity: 0.65;
-  margin: 0 28px 41px 29px;
+  //margin: 0 28px 41px 29px;
 }
 
 @media all and(min-width:768px) {
