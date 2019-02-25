@@ -1,6 +1,7 @@
 .page__main{
- padding-top: 31px;
- background-color: #c9c9c9;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  background-color: #c9c9c9;
 }
 
 .item__section--first{
@@ -11,28 +12,25 @@
   text-align: center;
 }
 
-.image__section--first{
-  height: 135px;
-}
-
 .circle{
   background-color: white;
   border: 2px solid #c9c9c9;
   width: 87px;
   height: 87px;
-  position: absolute;
-  transform: translateY(-15%);
+  position: relative;
+  top: -44px;
 }
 
 .title__section--first {
   font-weight: bold;
-  margin-top: 68px;
+  margin-top: -29px;
 }
 
 .text__section--first{
   width: 243px;
   //margin: 0 41px 29px 47px;
   line-height: 1.25;
+  margin-bottom: 29px;
 }
 
 .section__second{
@@ -41,20 +39,20 @@
 }
 
 .image__section--second{
-  width: 65px;
-  height: 65px;
-  margin: 15px 0 0 15px;
+  margin-top: 15px;
 }
 
 .container__section--second{
-  margin-left: 11px;
-  padding-right: 23px;
+
+  // margin-left: 11px;
+  // padding-right: 23px;
 }
 
 .title__section--second{
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .text__section--second, .text__section--third{
@@ -64,8 +62,8 @@
 }
 
 .section__third{
-  background-color:#a767a7;
   margin-top: 30px;
+  background-color:#a767a7;
   padding: 29px 20px 0 15px;
   color: #c9c9c9;
 }
@@ -73,31 +71,39 @@
 .title__section--third{
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
+}
+
+.text__section--third{
+  margin-bottom: 30px;
 }
 
 @media all and (min-width:768px){
-  .list__section--first{
-    display: flex;
-    flex-direction: row;
+  .page__main{
+    padding-bottom: 176px;
   }
 
-  .list__section--second{
-    display: flex;
-    flex-flow: column wrap;
-    max-height: 700px;
+  .title__section--second{
+    font-size: 30px;
   }
 
-  .item__section--second{
-    width: 50%;
+  .text__section--second{
+    font-size: 16px;
   }
 
-  .section__third{
-    max-width: 420px;
+  .title__section--third{
+    font-size: 24px;
   }
 
-  .container__wrap{
-    display: flex;
-    flex-direction: row;
+  .text__section--third{
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1440px){
+  .circle{
+    width: 110px;
+    height: 110px;
+    top: -55px;
   }
 }

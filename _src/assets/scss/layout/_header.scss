@@ -1,61 +1,104 @@
-.page__header{
+.page__header {
   background-color: #ff8e8e;
-  height: 639px;
-  padding-bottom: 124px;
+  padding-bottom: 125px;
+}
+
+.hidden{
+  display: none;
+}
+
+.navbar__container{
+  padding-top: 15px;
 }
 
 .logo__header {
-  width: 163px;
-  height: 45px;
+  max-height: 100%;
+}
+
+.list__navbar {
   margin-top: 15px;
+  height: 100%;
 }
 
-.list__navbar{
-  background-color: red;
-  height: 117px;
-}
-
-.item__list--header{
+.item__list--header {
   display: inline-block;
+  width: 194px;
+  height: 100%;
+  vertical-align: middle;
+  background-color: #dc3545;
 }
 
-.button{
+.menu {
+  position: absolute;
+  z-index: 1;
+  font-size: 18px;
+  right: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
   background-color: white;
   border-radius: 0;
-  width: 45px;
-  height: 45px;
-  padding: 0;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  border: 0;
+  //width: 45px;
+  // height: 45px;
+  //padding: 0;
+  // position: absolute;
+  // top: 15px;
+  // right: 15px;
+  // border: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.container__text--header{
+.english__button{
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 32%;
+  right: 4%;
+}
+
+.container__text--header {
   background-color: #828282;
   color: #f6f6f6;
-  margin: 66px 15px 0 14px;
+  margin-top: 66px;
+  padding-top: 44px;
+  padding-bottom: 41px;
+  text-align: center;
+  max-width: 1220px;
 }
 
-.main__title{
+.main__title {
   display: inline-block;
   font-weight: bold;
   font-size: 36px;
-  margin: 44px 0 40px 0;
+  margin-bottom: 40px;
 }
-.text__header{
+.text__header {
   font-size: 18px;
   color: #c9c9c9;
   line-height: 1.25;
   opacity: 0.65;
+  max-width: 906px;
+  padding-right: 45px;
+  padding-left: 45px;
   //margin: 0 28px 41px 29px;
 }
 
-@media all and(min-width:768px) {
-  .logo__header{
-    width: 420px;
-    height: 117px;
+@media all and (min-width: 768px) {
+  .main__title {
+    font-size: 60px;
+  }
+
+  .background__navbar{
+    background-color: #dc3545;
+  }
+
+  .item__list--header {
+    font-size: 24px;
   }
 }
-
-
