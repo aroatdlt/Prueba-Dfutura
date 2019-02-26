@@ -1,7 +1,7 @@
 .page__main{
   padding-top: 30px;
   padding-bottom: 22px;
-  background-color: #c9c9c9;
+  background-color: $color-rhino;
 }
 
 .item__section--first{
@@ -13,10 +13,10 @@
 }
 
 .circle{
-  background-color: white;
-  border: 2px solid #c9c9c9;
-  width: 87px;
+  background-color: $color-polarbear;
+  border: 2px solid $color-rhino;
   height: 87px;
+  width: 87px;
   position: relative;
   top: -44px;
 }
@@ -28,14 +28,13 @@
 
 .text__section--first{
   width: 243px;
-  //margin: 0 41px 29px 47px;
   line-height: 1.25;
   margin-bottom: 29px;
 }
 
 .section__second{
-  color: #c9c9c9;
-  background-color: #585858;
+  color: $color-rhino;
+  background-color: $color-rat;
 }
 
 .image__section--second{
@@ -43,7 +42,7 @@
 }
 
 .title__section--second{
-  font-size: 18px;
+  font-size: $font-primary;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -57,9 +56,9 @@
 
 .section__third{
   margin-top: 30px;
-  background-color:#a54ea4;
+  background-color:$color-octopus;
   padding: 29px 20px 0 15px;
-  color: #c9c9c9;
+  color: $color-rhino;
 }
 
 .title__section--third{
@@ -91,7 +90,7 @@
   }
 
   .text__section--second{
-    font-size: 16px;
+    font-size: $font-tertiary;
   }
 
   .section__third{
@@ -99,11 +98,11 @@
   }
 
   .title__section--third{
-    font-size: 24px;
+    font-size: $font-secondary;
   }
 
   .text__section--third{
-    font-size: 16px;
+    font-size: $font-tertiary;
   }
 }
 
